@@ -36,7 +36,7 @@ h1{
 }
 
 #about-txt{
-    width: 68ch;
+    width: 75ch;
     max-width: 100%;
     color: var(--secondary);
     text-align: justify;
@@ -44,7 +44,7 @@ h1{
 }
 
 #tools{
-    width: calc(75ch - 2rem);
+    width: calc(82ch - 2rem);
     padding: 1rem;
     max-width: 100%;
     background-color: var(--blue-torc-2);
