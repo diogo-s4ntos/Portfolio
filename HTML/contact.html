@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Cruz - Contact</title>
+    <link rel="icon" href="../ASSETS/favicon.ico">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/root.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" id="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li id="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact me</h1>
+        <form action="https://formspree.io/f/xayrqvpo" method="POST">
+            <input type="text" name="nome" id="first-name" placeholder="FIRST NAME*" required>
+            <input type="text" name="sobrenome" id="last-name" placeholder="LAST NAME*" required>
+
+            <input type="email" name="email" id="email" placeholder="EMAIL*" required>
+            <input list="number" name="number" placeholder="PHONE NUMBER">
+
+            <input type="text" name="assunto" id="subject" placeholder="SUBJECT*" autocomplete="off" required>
+            <textarea name="mensagem" id="message" placeholder="MESSAGE*" autocomplete="off" required></textarea>
+
+            <button type="submit" id="send">Send</button>
+        </form>
+    </main>
+</body>
+</html>
