@@ -36,10 +36,11 @@ h1{
 }
 
 #about-txt{
-    width: 75ch;
+    width: 68ch;
     max-width: 100%;
     color: var(--secondary);
     text-align: justify;
+    font-size: 1.1em;
 }
 
 #tools{
