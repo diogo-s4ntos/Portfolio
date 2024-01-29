@@ -28,40 +28,53 @@ main{
     text-shadow: 0px 0px 10px var(--blue-torc);
 }
 
-#info--medias{
+#avatar--medias{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#avatar{
+    border: 2px solid var(--secondary);
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px var(--secondary),
+                inset 0px 0px 10px var(--secondary);
+}
+
+#info{
     color: var(--secondary);
     display: flex;
     gap: .6rem;
     flex-direction: column;
 }
 
-#info--medias h1{
+#info h1{
     color: var(--secondary);
     font-size: 4em;
 }
 
-#info--medias h1 span{
+#info h1 span{
     color: var(--blue-torc);
     text-shadow: 0px 0px 10px var(--blue-torc);
 }
 
-#info--medias #cargo{
+#info #cargo{
     position: relative;
     font-size: 1.4em;
 }
 
-#info--medias #cargo::before{
+#info #cargo::before{
     content: '';
     animation: infoSpan 20s infinite;
 }
 
 @keyframes infoSpan {
     0%,100%{
-        content: "Fullstack Developer";
+        content: "Front-end Developer";
     }
 }
 
-#info--medias #cargo::after{
+#info #cargo::after{
     content: '';
     position: absolute;
     right: -.4rem;
@@ -114,15 +127,38 @@ main{
 }
 
 button{
-    padding: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+    margin-top: 1rem;
     color: var(--secondary);
-    background-color: var(--blue-torc-2);
-    backdrop-filter: blur(10px);
+    font-size: 1.1em;
+    background-color: transparent;
     border: 2px solid var(--blue-torc);
     border-radius: 10px;
+    box-shadow: 0px 5px 0px var(--blue-torc-2);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-button:hover{
-    transform: scale(1.1);
+#download-img{
+    display: none;
+}
+
+#download-text{
+    display: flex;
+}
+
+button:active{
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+button:hover > #download-text{
+    display: none;
+}
+
+button:hover > #download-img{
+    display: flex;
 }
