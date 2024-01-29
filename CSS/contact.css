@@ -73,15 +73,36 @@ button{
     color: var(--secondary);
     font-size: 1.3em;
     background-color: var(--primary);
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--blue-torc);
+    box-shadow: 0px 5px 0px var(--blue-torc-2);
     border-radius: 10px;
-    transition: .3s ease;
     cursor: pointer;
 }
 
-
 button:hover{
-    color: var(--secondary);
+    transition: .3s ease;
     background-color: var(--blue-torc);
     border: 2px solid var(--blue-torc);
+}
+
+button:active{
+    transition: 0s ease;
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+.error:nth-child(4){
+    border: 2px solid var(--secondary);
+}
+
+.error:nth-child(8){
+    border: 2px solid var(--blue-torc);
+}
+
+.filled{
+    border: 2px solid var(--secondary);
 }

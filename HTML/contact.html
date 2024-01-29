@@ -27,12 +27,13 @@
     </header>
     <main>
         <h1>Contact me</h1>
-        <form action="https://formspree.io/f/xayrqvpo" method="POST">
-            <input type="text" name="nome" id="first-name" placeholder="FIRST NAME*" required>
-            <input type="text" name="sobrenome" id="last-name" placeholder="LAST NAME*" required>
+        <form action="https://formspree.io/f/xayrqvpo" method="POST" id="myForm">
+            <input type="text" name="nome" id="first-name" placeholder="FIRST NAME*" oninput="validarLetras(this)" required>
+            <input type="text" name="sobrenome" id="last-name" placeholder="LAST NAME*" oninput="validarLetras(this)" required>
 
             <input type="email" name="email" id="email" placeholder="EMAIL*" required>
-            <input list="number" name="number" placeholder="PHONE NUMBER">
+            <input list="countries" name="country" placeholder="Country">
+            <datalist id="countries"></datalist>
 
             <input type="text" name="assunto" id="subject" placeholder="SUBJECT*" autocomplete="off" required>
             <textarea name="mensagem" id="message" placeholder="MESSAGE*" autocomplete="off" required></textarea>
@@ -40,5 +41,8 @@
             <button type="submit" id="send">Send</button>
         </form>
     </main>
+
+    <!-- Script -->
+    <script src="../JS/contact.js"></script>
 </body>
 </html>

@@ -150,9 +150,10 @@ button{
     display: flex;
 }
 
-button:active{
-    transform: translateY(5px);
-    box-shadow: none;
+button:hover{
+    transition: .3s ease;
+    background-color: var(--blue-torc);
+    border: 2px solid var(--blue-torc);
 }
 
 button:hover > #download-text{
@@ -161,4 +162,10 @@ button:hover > #download-text{
 
 button:hover > #download-img{
     display: flex;
+}
+
+button:active{
+    transition: 0s ease;
+    transform: translateY(5px);
+    box-shadow: none;
 }
