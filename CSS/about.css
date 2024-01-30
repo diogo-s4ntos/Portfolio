@@ -44,7 +44,7 @@ h1{
 }
 
 #tools{
-    width: calc(82ch - 2rem);
+    width: 20rem;
     padding: 1rem;
     max-width: 100%;
     background-color: var(--blue-torc-2);

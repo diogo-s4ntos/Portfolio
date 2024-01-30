@@ -61,7 +61,12 @@ input {
     grid-column: 4;
     font-size: 1.1em;
     box-shadow: 0px 5px 0px var(--blue-torc-2);
+    transition: .3s ease;
     cursor: pointer;
+}
+
+#submit:hover{
+    background-color: var(--blue-torc);
 }
 
 #submit:active {
