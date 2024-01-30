@@ -53,6 +53,7 @@ input {
 
 #name {
     grid-column: span 3;
+    font-size: 1em;
 }
 
 #submit {
@@ -75,6 +76,7 @@ textarea {
     outline: none;
     resize: vertical;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--secondary);
     background-color: var(--primary);
     border: 2px solid var(--blue-torc);

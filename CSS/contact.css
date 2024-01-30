@@ -100,7 +100,7 @@ button:active{
 }
 
 .error:nth-child(4){
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--blue-torc);
 }
 
 .error:nth-child(8){
@@ -108,5 +108,5 @@ button:active{
 }
 
 .filled{
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--blue-torc);
 }

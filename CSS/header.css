@@ -82,3 +82,24 @@ ul li a{
 #interact-options:hover{
     transform: scaleY(1);
 }
+
+@media screen and (max-width: 1181px) {
+    header{
+        width: calc(100% - 12rem);
+        padding: .76rem 6rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    header{
+        width: calc(100% - 6rem);
+        padding: .76rem 3rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    header{
+        width: calc(100% - 6rem);
+        padding: .76rem 3rem;
+    }
+}
