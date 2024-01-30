@@ -71,6 +71,7 @@ textarea{
     background-color: var(--primary);
     border: 2px solid var(--blue-torc);
     border-radius: 10px;
+    outline: none;
 }
 
 button{

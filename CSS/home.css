@@ -35,6 +35,7 @@ main{
 }
 
 #avatar{
+    max-width: 100%;
     border-radius: 25px;
     box-shadow: inset 14px 14px 28px #101010,
             inset -14px -14px 28px var(--blue-torc);
@@ -167,4 +168,17 @@ button:active{
     transition: 0s ease;
     transform: translateY(5px);
     box-shadow: none;
+}
+
+@media screen and (max-width: 815px) {
+    main{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    #info h1{
+        font-size: 3em;
+    }
 }

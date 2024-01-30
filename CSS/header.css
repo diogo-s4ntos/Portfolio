@@ -83,6 +83,14 @@ ul li a{
     transform: scaleY(1);
 }
 
+#menu-button{
+    display: none;
+}
+
+#menu-phone{
+    display: none;
+}
+
 @media screen and (max-width: 1181px) {
     header{
         width: calc(100% - 12rem);
@@ -97,9 +105,67 @@ ul li a{
     }
 }
 
-@media screen and (max-width: 760px) {
-    header{
-        width: calc(100% - 6rem);
-        padding: .76rem 3rem;
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none
+    }
+
+    #menu-button{
+        appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background: url(../ASSETS/icons/menu.png) center/contain no-repeat;
+        background-color: var(--primary);
+        border: none;
+        transition: .3s ease;
+        display: flex;
+        z-index: 999;
+    }
+
+    #menu-button:checked{
+        transform: rotate(180deg);
+        background: url(../ASSETS/icons/close.png) center/contain no-repeat;
+    }
+
+    #menu-phone{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 4rem);
+        height: calc(100% - 4rem);
+        padding: 2rem;
+        background-color: #000;
+        transition: .3s ease;
+        transform: translate(100%);
+        display: flex;
+    }    
+
+    #menu-button:checked + #menu-phone{
+        transform: translate(0);
+    }
+
+    #menu-phone nav{
+        font-size: 1.5em;
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu-phone nav a{
+        color: var(--secondary);
+        text-decoration: none;
+    }
+
+    #interact-container{
+        padding-left: 0;
+        padding-top: 1.5rem;
+        border-left: none;
+        border-top: 1px solid var(--secondary);
+    }
+
+    #interact-options{
+        top: 4.1rem;
     }
 }
