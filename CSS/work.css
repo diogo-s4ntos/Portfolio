@@ -44,10 +44,10 @@ h1{
 }
 
 .card{
-    height: 15rem;
+    height: 17.5rem;
     position: relative;
+    border-radius: 15px;
     box-shadow: 0px 5px 18px var(--secondary);
-    transition: .3s ease;
 }
 
 #info{
@@ -58,8 +58,10 @@ h1{
     padding: 2rem;
     background-color: var(--secondary-2);
     backdrop-filter: blur(10px);
-    transform: rotateY(180deg);
-    display: none;
+    border-radius: 15px;
+    opacity: 0;
+    transition: .38s ease;
+    display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
@@ -84,10 +86,15 @@ h1{
     font-weight: bold;
 }
 
-.card:hover{
+.card img{
+    border-radius: 15px;
+    transition: .3s ease;
+}
+
+.card:hover > img{
     transform: rotateY(180deg);
 }
 
-.card:hover  #info{
-    display: flex;
+.card:hover > #info{
+    opacity: 1;
 }
