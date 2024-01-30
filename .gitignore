@@ -1,2 +1,5 @@
 .vscode/
 .firebase/
+firestore.indexes.json
+firestore.rules
+.firebase/
