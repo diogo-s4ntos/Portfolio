@@ -21,10 +21,8 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 - HTML5
 - CSS3
 - JavaScript
-- Typescript 
 - RestCountries (API)
-- Firebase
-- PHP
+- PHP (#soon)
 
 ## Usage Instructions
 
@@ -42,4 +40,4 @@ This project is distributed under the [MIT License](link-to-license-file).
 
 ## Link
 
-**Live site URL:** <a href="https://diogo-s4ntos.github.io/Portfolio/HTML/main.html">Click Here</a>
+**Live site URL:** <a href="https://diogo-s4ntos.github.io/Portfolio-2/HTML/home.html">Click Here</a>
