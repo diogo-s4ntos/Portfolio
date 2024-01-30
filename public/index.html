@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diogo Santos</title>
+    <link rel="icon" href="ASSETS/favicon.ico">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/load.css">
+    <link rel="stylesheet" href="CSS/scrollbar.css">
+    <link rel="stylesheet" href="CSS/root.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loader">
+            <span class="loader-text">loading</span>
+            <span class="load"></span>
+        </div>
+    </div>
+    <header>
+        <a href="index.html" id="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="HTML/about.html">About</a></li>
+                <li><a href="HTML/experiences.html">Experiences</a></li>
+                <li><a href="HTML/work.html">Work</a></li>
+                <div id="interact-container">
+                    <li id="interact"><span>Interact <img src="ASSETS/icons/arrow.png" alt="" draggable="false"></span></li>
+                    <div id="interact-options">
+                        <a href="HTML/contact.html">Contact</a>
+                        <a href="HTML/feedback.html">Feedback</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="avatar--medias">
+            <img src="ASSETS/imgs/avatar.png" alt="Diogo Santos - Avatar" id="avatar" width="500rem" draggable="false">
+            <div id="medias">
+                <a href="https://www.linkedin.com/in/diogo-santos-5b300a2a0/" id="linkdin"></a>
+                <a href="https://github.com/diogo-s4ntos" id="github"></a>
+            </div>
+        </div>
+        <div id="info">
+            <h1>Hi, I'm <span>Diogo Santos</span></h1>
+            <p><span id="cargo"></span></p>
+            <a href="ASSETS/cv.pdf" download="cv-diogo-santos" id="cv">
+                <button>
+                    <img src="ASSETS/icons/download.png" alt="Download" id="download-img" width="35rem" draggable="false">
+                    <span id="download-text">Download CV</span>
+                </button>
+            </a>
+        </div>
+    </main>
+
+    <!-- Script -->
+    <script src="JS/load.js"></script>
+</body>
+</html>

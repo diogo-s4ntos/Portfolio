@@ -35,10 +35,9 @@ main{
 }
 
 #avatar{
-    border: 2px solid var(--secondary);
     border-radius: 25px;
-    box-shadow: 0px 0px 10px var(--secondary),
-                inset 0px 0px 10px var(--secondary);
+    box-shadow: inset 14px 14px 28px #101010,
+            inset -14px -14px 28px var(--blue-torc);
 }
 
 #info{
