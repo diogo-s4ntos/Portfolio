@@ -1,14 +1,14 @@
 header{
     width: calc(100% - 24rem);
-    padding: .5rem 12rem;
+    padding: .76rem 12rem;
     background-color: var(--primary);
     border-bottom: 1px solid var(--secondary);
     display: flex;
 }
 
 #logo{
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background: url(../ASSETS/imgs/logo.png) center/contain no-repeat;
 }
 
@@ -43,7 +43,6 @@ ul li a{
 
 #interact{
     position: relative;
-    cursor: pointer;
 }
 
 #interact span{
