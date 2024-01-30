@@ -175,6 +175,10 @@ button:active{
         flex-direction: column;
         text-align: center;
     }
+
+    #medias{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 441px) {

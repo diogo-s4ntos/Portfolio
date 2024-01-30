@@ -148,7 +148,6 @@ ul li a{
     }
 
     #menu-button:checked{
-        transform: rotate(180deg);
         background: url(../ASSETS/icons/close.png) center/contain no-repeat;
     }
 
@@ -163,23 +162,42 @@ ul li a{
         transition: .3s ease;
         transform: translateX(100%);
         display: flex;
+        flex-direction: column;
         z-index: 998;
     }    
 
     #menu-phone nav{
+        height: 100%;
         font-size: 1.5em;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: center;
     }
 
     #menu-phone nav a{
-        width: 100%;
         padding: 1.2rem 0rem;
         color: var(--secondary);
         text-decoration: none;
-        border-bottom: 2px dashed var(--secondary);
+    }
+
+    #medias-phone{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #linkdin{
+        width: 3rem;
+        height: 3rem;
+        background: url(../ASSETS/icons/linkedin.png) center/cover no-repeat;
+    }
+    
+    #github{
+        width: 3rem;
+        height: 3rem;
+        background: url(../ASSETS/icons/github.png) center/cover no-repeat;
     }
 
     #menu-phone #interact-container{
@@ -189,6 +207,15 @@ ul li a{
     }
 
     #menu-phone #interact-options{
-        top: 4.15rem;
+        top: 3.95rem;
+        display: flex;
+        gap: .2rem;
+    }
+
+    #menu-phone #interact-options a{
+        height: 10px;
+        padding: 1rem .6rem;
+        display: flex;
+        align-items: center;
     }
 }
