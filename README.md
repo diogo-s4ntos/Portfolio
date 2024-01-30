@@ -22,7 +22,7 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 - CSS3
 - JavaScript
 - RestCountries (API)
-- PHP (#soon)
+- PHP (soon)
 
 ## Usage Instructions
 
