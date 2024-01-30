@@ -128,7 +128,7 @@ ul li a{
     }
 
     #menu-phone{
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: calc(100% - 4rem);
@@ -140,10 +140,6 @@ ul li a{
         display: flex;
         z-index: 999;
     }    
-
-    #menu-button:checked + #menu-phone{
-        transform: translate(0);
-    }
 
     #menu-phone nav{
         font-size: 1.5em;
