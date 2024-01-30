@@ -38,9 +38,9 @@
     <main>
         <h1>Feedback</h1>
 
-        <form action="">
+        <form action="" onsubmit="addFeedback(); return false;">
             <input type="text" placeholder="Name" id="name">
-            <input type="submit" onsubmit="addFeedback()" id="submit">
+            <input type="submit" id="submit">
             <textarea name="message" id="message" placeholder="Message"></textarea>
         </form>
 
