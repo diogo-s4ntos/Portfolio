@@ -21,8 +21,9 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 - HTML5
 - CSS3
 - JavaScript
+- Typescript 
 - API (API USADA)
-- SQL (MySQL)
+- Firebase
 - PHP
 
 ## Usage Instructions
