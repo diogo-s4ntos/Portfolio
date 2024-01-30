@@ -93,5 +93,5 @@ textarea {
     max-width: 100%;
     padding: 1rem;
     background-color: var(--primary);
-    border-top: 2px solid var(--secondary);
+    border-top: 2px dashed var(--secondary);
 }
