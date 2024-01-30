@@ -33,7 +33,7 @@ h1{
     font-size: 3em;
 }
 
-form{
+form {
     width: 40rem;
     max-width: 100%;
     padding: 1rem;
@@ -42,7 +42,7 @@ form{
     grid-template-columns: repeat(4, 1fr);
 }
 
-input{
+input {
     padding: 1rem;
     outline: none;
     color: var(--secondary);
@@ -51,22 +51,24 @@ input{
     border-radius: 10px;
 }
 
-#name{
+#name {
     grid-column: span 3;
 }
 
-#submit{
+#submit {
+    grid-row: 1;
+    grid-column: 4;
     font-size: 1.1em;
     box-shadow: 0px 5px 0px var(--blue-torc-2);
     cursor: pointer;
 }
 
-#submit:active{
+#submit:active {
     transform: translateY(5px);
     box-shadow: none;
 }
 
-textarea{
+textarea {
     grid-column: span 4;
     padding: 1rem;
     min-height: 8rem;
@@ -79,15 +81,11 @@ textarea{
     border-radius: 10px;
 }
 
-#feedbacks{
+#feedbacks {
     width: 38rem;
     max-width: 100%;
     padding: 1rem;
     background-color: var(--primary);
     border: 2px solid var(--secondary);
     border-radius: 10px;
-}
-
-.card{
-    width: 100%;
 }
