@@ -22,7 +22,7 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 - CSS3
 - JavaScript
 - Typescript 
-- API (API USADA)
+- RestCountries (API)
 - Firebase
 - PHP
 
