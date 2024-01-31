@@ -1,5 +1,7 @@
 header{
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
     width: calc(100% - 24rem);
     padding: .75rem 12rem;
     background-color: var(--primary);
