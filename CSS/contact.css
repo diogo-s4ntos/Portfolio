@@ -74,7 +74,7 @@ textarea{
     outline: none;
 }
 
-button{
+#send{
     color: var(--secondary);
     font-size: 1.3em;
     background-color: var(--primary);
@@ -84,13 +84,13 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+#send:hover{
     transition: .3s ease;
     background-color: var(--blue-torc);
     border: 2px solid var(--blue-torc);
 }
 
-button:active{
+#send:active{
     transition: 0s ease;
     transform: translateY(5px);
     box-shadow: none;

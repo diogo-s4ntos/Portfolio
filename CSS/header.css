@@ -43,6 +43,7 @@ header{
 nav{
     width: 100%;
     display: flex;
+    gap: 1rem;
     align-items: center;
     justify-content: end;
 }
@@ -71,11 +72,8 @@ ul li a{
 
 #interact{
     position: relative;
-}
-
-#interact span{
     padding: .4rem;
-    color: var(--secondary);
+    color: var(--primary);
     background-color: var(--blue-torc);
     border-radius: 10px;
     display: flex;
@@ -110,6 +108,15 @@ ul li a{
 #interact-options:hover{
     transform: scaleY(1);
 }
+
+#theme{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(../ASSETS/icons/moon.png) center/contain no-repeat;
+    border: none;
+    transition: .3s ease;
+    cursor: pointer;
+  }
 
 #menu-button{
     display: none;
@@ -161,7 +168,7 @@ ul li a{
         width: calc(100% - 4rem);
         height: calc(100% - 4rem);
         padding: 2rem;
-        background-color: #000;
+        background-color: var(--primary); /* TODO: #000 */
         transition: .3s ease;
         transform: translateX(100%);
         display: flex;
