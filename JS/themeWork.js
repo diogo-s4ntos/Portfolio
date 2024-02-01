@@ -8,6 +8,15 @@ document.getElementById('theme').addEventListener('click', () => {
     document.querySelectorAll('#interact-options > a').forEach(function(element) {
         element.style.backgroundColor = '#ccc';
     });
+    document.querySelectorAll('#linkdin').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
+  document.querySelectorAll('#github').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
+  document.querySelectorAll('#download-img').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
     document.getElementById('theme').style.background = 'url(../ASSETS/icons/sun.png) center/contain no-repeat';
     clicks = true;
   }
@@ -18,6 +27,15 @@ document.getElementById('theme').addEventListener('click', () => {
     document.querySelectorAll('#interact-options > a').forEach(function(element) {
         element.style.backgroundColor = '#3b3b3b';
     });
+    document.querySelectorAll('#linkdin').forEach(function(element) {
+      element.style.filter = 'none';
+  });
+  document.querySelectorAll('#github').forEach(function(element) {
+      element.style.filter = 'none';
+  });
+  document.querySelectorAll('#download-img').forEach(function(element) {
+      element.style.filter = 'none';
+  });
     document.getElementById('theme').style.background = 'url(../ASSETS/icons/moon.png) center/contain no-repeat';
     clicks = false;
   }

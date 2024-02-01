@@ -116,6 +116,8 @@ ul li a{
     border: none;
     transition: .3s ease;
     cursor: pointer;
+    display: flex;
+    z-index: 999;
   }
 
 #menu-button{

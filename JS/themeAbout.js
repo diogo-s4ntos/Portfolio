@@ -11,6 +11,15 @@ document.getElementById('theme').addEventListener('click', () => {
     document.querySelectorAll('#tools img').forEach(function(element) {
         element.style.filter = 'brightness(.25)';
     });
+    document.querySelectorAll('#linkdin').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
+  document.querySelectorAll('#github').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
+  document.querySelectorAll('#download-img').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
     document.getElementById('theme').style.background = 'url(../ASSETS/icons/sun.png) center/contain no-repeat';
     clicks = true;
   }
@@ -24,6 +33,15 @@ document.getElementById('theme').addEventListener('click', () => {
     document.querySelectorAll('#tools img').forEach(function(element) {
         element.style.filter = 'none';
     });
+    document.querySelectorAll('#linkdin').forEach(function(element) {
+      element.style.filter = 'none';
+  });
+  document.querySelectorAll('#github').forEach(function(element) {
+      element.style.filter = 'none';
+  });
+  document.querySelectorAll('#download-img').forEach(function(element) {
+      element.style.filter = 'none';
+  });
     document.getElementById('theme').style.background = 'url(../ASSETS/icons/moon.png) center/contain no-repeat';
     clicks = false;
   }

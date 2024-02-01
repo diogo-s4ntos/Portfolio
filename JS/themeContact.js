@@ -6,10 +6,20 @@ document.getElementById('theme').addEventListener('click', () => {
     document.documentElement.style.setProperty('--secondary', '#1f1f1f');
     document.querySelector('header > nav > ul > div > li > span').style.color = '#fff';
     document.querySelectorAll('#interact-options > a').forEach(function(element) {
-        element.style.backgroundColor = '#ccc';
+      element.style.backgroundColor = '#ccc';
+      element.style.color = '#1f1f1f';
     });
-    document.querySelector('#interact-options > a').style.backgroundColor = '#7413a8';
-    document.querySelector('#interact-options > a').style.color = '#ccc';
+    document.getElementById('contact').style.backgroundColor = '#7413a8';
+    document.getElementById('contact').style.color = '#1f1f1f';
+    document.querySelectorAll('#linkdin').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
+  document.querySelectorAll('#github').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
+  document.querySelectorAll('#download-img').forEach(function(element) {
+      element.style.filter = 'brightness(.3)';
+  });
     document.getElementById('theme').style.background = 'url(../ASSETS/icons/sun.png) center/contain no-repeat';
     clicks = true;
   }
@@ -18,8 +28,20 @@ document.getElementById('theme').addEventListener('click', () => {
     document.documentElement.style.setProperty('--secondary', '#ccc');
     document.querySelector('header > nav > ul > div > li > span').style.color = '#1f1f1f';
     document.querySelectorAll('#interact-options > a').forEach(function(element) {
-        element.style.backgroundColor = '#3b3b3b';
+      element.style.backgroundColor = '#3b3b3b';
+      element.style.color = '#ccc';
     });
+    document.getElementById('contact').style.backgroundColor = '#7413a8';
+    document.getElementById('contact').style.color = '#ccc';
+    document.querySelectorAll('#linkdin').forEach(function(element) {
+      element.style.filter = 'none';
+  });
+  document.querySelectorAll('#github').forEach(function(element) {
+      element.style.filter = 'none';
+  });
+  document.querySelectorAll('#download-img').forEach(function(element) {
+      element.style.filter = 'none';
+  });
     document.getElementById('theme').style.background = 'url(../ASSETS/icons/moon.png) center/contain no-repeat';
     clicks = false;
   }
