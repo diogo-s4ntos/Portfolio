@@ -83,7 +83,7 @@ ul li a{
 
 #interact-options{
     position: absolute;
-    top: 2.35rem;
+    top: 2rem;
     transition: .5s ease;
     transform: scaleY(0);
     display: flex;
