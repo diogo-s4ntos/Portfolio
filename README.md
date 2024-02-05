@@ -40,4 +40,4 @@ This project is distributed under the [MIT License](link-to-license-file).
 
 ## Link
 
-**Live site URL:** <a href="https://diogo-s4ntos.github.io/My-Portfolio/HTML/home.html">Click Here</a>
+**Live site URL:** <a href="https://diogo-s4ntos.github.io/Portfolio/home.html">Click Here</a>
