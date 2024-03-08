@@ -26,7 +26,7 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 
 ## Usage Instructions
 
-1. Clone the repository to your local machine: `git clone https://github.com/your-username/repository-name.git`
+1. Clone the repository to your local machine: `git clone https://github.com/diogo-s4ntos/Portfolio`
 2. Open the `index.html` file in your browser to view the portfolio.
 3. Personalize the content as needed.
 
